@@ -1,0 +1,12 @@
+
+//primero para empresa va el formulario listado
+
+
+//tenemos el personal va formulario cargo, tipo y listado
+
+
+//contrato va portada principal, observacion de personal, luego en plantilla tenemos (objetivos->nombre de la actividad, alcance, referencia, definiciones, descripcion del trabajo)
+
+// encargado van encargados admin. y encargados en terreno
+
+//actividades va la ejecucion del trabajo (servicio del tirtulo con su observacion, actividades y registro de fotos y visualizacion)
