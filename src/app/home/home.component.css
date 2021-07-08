@@ -4,11 +4,10 @@
 
 .pointer {
   cursor: pointer;
-  background-color: #F29F18;
+  background-color: #f6b319;
   color: #fff;
 }
 
 .pointer:hover {
- background-color: #0086C9;
-
+  background-color: #f29f18;
 }
