@@ -1,4 +1,6 @@
-
+*{
+  text-transform: uppercase;
+}
 .btn-volver {
   border: none !important;
   background-color: transparent;
