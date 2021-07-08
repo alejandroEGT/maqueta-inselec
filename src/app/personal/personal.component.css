@@ -15,4 +15,10 @@
    background-color: #0086C9;
   
   }
-  
+  .btn-volver {
+    border: none !important;
+    background-color: transparent;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
