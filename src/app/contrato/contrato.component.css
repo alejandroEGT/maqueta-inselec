@@ -1,0 +1,21 @@
+.card-padre {
+  background-color: #0086c9;
+}
+
+.pointer {
+  cursor: pointer;
+  background-color: #f6b319;
+  color: #fff;
+}
+
+.pointer:hover {
+  background-color: #f29f18;
+}
+
+.btn-volver {
+  border: none !important;
+  background-color: transparent;
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+}
