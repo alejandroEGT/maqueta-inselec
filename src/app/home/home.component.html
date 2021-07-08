@@ -1,0 +1,31 @@
+<div class="card border-dark row m-5 text-center">
+  <div class="card-body">
+    <h5 class="card-title">HOME</h5> <hr>
+
+    <div class="row m-5 text-center">
+      <div class="col-4">
+        <div class="card pointer" [routerLink]="['/auth/empresa']" routerLinkActive="router-link-active" >
+          <div class="card-body">
+            <h5 class="card-title">EMPRESAS</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card pointer" [routerLink]="['/auth/personal']" routerLinkActive="router-link-active">
+          <div class="card-body">
+            <h5 class="card-title">PERSONAL</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card pointer" [routerLink]="['/auth/contrato']" routerLinkActive="router-link-active">
+          <div class="card-body">
+            <h5 class="card-title">CONTRATOS</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+

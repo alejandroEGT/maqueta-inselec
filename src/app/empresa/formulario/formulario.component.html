@@ -1,1 +1,45 @@
-<p>formulario works!</p>
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <h3 class="text-center mt-1">Formulario empresa</h3>
+          <button type="button" class="btn btn-volver" routerLink="/auth/empresa"><i
+                  class="fas fa-arrow-left icon-blue"></i>
+              Volver</button>
+      </div>
+        <div class="card-body">
+
+          <div class="row">
+            <div class="col-4">
+              <label>RUT EMPRESA</label>
+              <input class="form-control" type="text" placeholder="INGRESE RUT">
+            </div>
+            <div class="col-4">
+              <label>NOMBRE EMPRESA</label>
+              <input class="form-control" type="text" placeholder="INGRESE NOMBRE">
+            </div>
+            <div class="col-4">
+              <label>CODIGO EMPRESA</label>
+              <input class="form-control" type="text" placeholder="INGRESE CODIGO">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <label>DIRECCION EMPRESA</label>
+              <input class="form-control" type="text" placeholder="INGRESE DIRECCION">
+            </div>
+            <div class="col-4">
+              <label>LOGO EMPRESA</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-primary mt-4 w-100">REGISTRAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

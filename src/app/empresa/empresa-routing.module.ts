@@ -6,19 +6,10 @@ import { EmpresaComponent } from './empresa.component';
 import { ListadoComponent } from './listado/listado.component';
 
 const routes: Routes = [
-    {
-        path:'',
-        component: EmpresaComponent,
-        children:[
-            { path: 'formulario', component: FormularioComponent },
-            { path: 'listado', component: ListadoComponent },
-        ]
-    },
-
-    {
-        path:'**',
-        pathMatch:'full', redirectTo:''
-    }
+    {path:'', component: EmpresaComponent},
+    { path: 'formulario', component: FormularioComponent },
+    { path: 'listado', component: ListadoComponent },
+    { path:'**', pathMatch:'full', redirectTo:''}
 ];
 
 

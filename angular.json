@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "maqueta"
+  "defaultProject": "maqueta",
+  "cli": {
+    "analytics": false
+  }
 }
