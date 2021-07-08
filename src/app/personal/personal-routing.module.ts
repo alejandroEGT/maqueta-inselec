@@ -10,11 +10,10 @@ const routes: Routes = [
     {
         path:'',
         component: PersonalComponent,
-        children:[
-            { path: 'formulario', component: FormularioComponent },
-            { path: 'listado', component: ListadoComponent },
-        ]
+        
     },
+    { path: 'formulario', component: FormularioComponent },
+    { path: 'listado', component: ListadoComponent },
 
     {
         path:'**',

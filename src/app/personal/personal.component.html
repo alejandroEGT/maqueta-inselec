@@ -1,2 +1,23 @@
-<p>personal works!</p>
-<router-outlet></router-outlet>
+<div class="card border-dark row m-5 text-center">
+    <div class="card-body">
+      <h5 class="card-title">Personal</h5> <hr>
+  
+      <div class="row m-5 text-center">
+        <div class="col-6">
+          <div class="card pointer" [routerLink]="['/auth/personal/formulario']" routerLinkActive="router-link-active" >
+            <div class="card-body">
+              <h5 class="card-title">FORMULARIO</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card pointer" [routerLink]="['/auth/personal/listado']" routerLinkActive="router-link-active">
+            <div class="card-body">
+              <h5 class="card-title">LISTADO</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>

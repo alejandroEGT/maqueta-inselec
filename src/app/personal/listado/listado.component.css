@@ -1,0 +1,17 @@
+*{
+    text-transform: uppercase;
+}
+.thead-naranja{
+    background-color: orange;
+    color: white;
+    
+}
+
+.btn-volver {
+    border: none !important;
+    background-color: transparent;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+  

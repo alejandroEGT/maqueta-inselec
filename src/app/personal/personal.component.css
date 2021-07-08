@@ -1,0 +1,18 @@
+*{
+    text-transform: uppercase;
+}
+.card-padre{
+    background-color: #0086C9;
+  }
+  
+  .pointer {
+    cursor: pointer;
+    background-color: #F29F18;
+    color: #fff;
+  }
+  
+  .pointer:hover {
+   background-color: #0086C9;
+  
+  }
+  
